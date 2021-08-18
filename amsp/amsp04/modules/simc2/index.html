@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>SimC2 | NATO Simulation Standards</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="generator" content="GravCMS" />
+    <meta name="description" content="NATN FAFD is the NATO recommended Federation Agreement for Distributed Simulation" />
+
+    <link rel="icon" type="image/png" href="/user/themes/nmsg/images/favicon.png" />
+    <link rel="canonical" href="http://localhost/amsp/amsp04/modules/simc2" />
+
+                            	
+	
+
+            
+    <link href="/assets//assets/a6f28caf256a405b5ff74e6d6319dc6a.css" type="text/css" rel="stylesheet">
+
+    <script src="/assets/system/assets/jquery/jquery-2.x.min.js"></script>
+<script src="/assets/user/themes/quark/js/singlepagenav.min.js"></script>
+
+</head>
+<body id="top" class="header-transparent header-dark header-fixed header-animated sticky-footer">
+    <div id="page-wrapper">
+            <section id="header" class="section">
+            <section class="container grid-lg">
+                <nav class="navbar">
+                    <section class="navbar-section logo">
+                        <a href="/" class="navbar-brand mr-10">
+    <img src="/user/themes/nmsg/images/logo/nato-4-logo-svg-vector.svg" alt="NATO Simulation Standards" />
+</a>                    </section>
+                    <section class="navbar-section desktop-menu">
+
+                        <nav class="dropmenu animated">
+                                                    
+<ul >
+        
+</ul>
+
+                                                </nav>
+
+                        
+                    </section>
+                </nav>
+            </section>
+        </section>
+        <div class="mobile-menu">
+            <div class="button_container" id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+        </div>
+    
+                                <section id="blog-hero" class="section modular-hero hero text-light parrallax title-h1h2 overlay-dark " style="background-image: url('//amsp/amsp04/modules/simc2/e3.jpg');">
+    <div class="image-overlay"></div>
+    <section class="container grid-lg" style="text-align: center">
+                    <h1>SimC2</h1>
+            <h2></h2>
+            <span class="blog-date">
+    <time class="dt-published" datetime="2018-06-04T12:15:00+02:00">
+        <i class="fa fa-calendar"></i> 4th Jun 2018
+    </time>
+</span>
+                    
+    </section>
+    <i id="to-start" class="pulse fa fa-angle-down"></i>
+</section>
+
+    
+        <section id="start">
+        <section id="body-wrapper" class="section blog-listing">
+    <section class="container grid-lg">
+
+        
+        
+<div class="columns">
+    <div id="item" class="column col-12 extra-spacing">
+                        <div class="content-item h-entry">
+
+    <div class="e-content">
+        <p>The purpose of the <strong>Simulation-C2 Interoperability (SimC2)</strong> component is to automate the process of interaction between C2 systems and simulations. NETN SIM-C2 relies on the Coalition Battle Management Language (C-BML) and provides a way to represent C-BML messages in a federated simulation environment without the need to implement peer-to-peer connections between C-BML services and individual simulation systems. Although, an individual simulation can use a C-BML interface to interact directly with a C-BML server the preferred NETN approach is to have a single C-BML gateway that interacts with the NETN federation regardless.</p>
+<p>The C-BML language is a high level language representing orders, reports and requests. Some simulations can process this information directly and perform meaningful modelling of activities but most entity-level simulations are task oriented and operate on a significantly lower level. The NETN SimC2 concept does not exclude the use of simulations that can process C-BML directly but identifies the need for components that can perform both aggregation and disaggregation of orders, reports and requests into smaller elements suitable for entity-level simulations. Lower-level tasks can be used to control simulations in the NETN federation using the <a href="/amsp/amsp04/modules/lbml">Simulation Control</a> component.  </p>
+<p><img alt="" src="/images/3/a/b/f/e/3abfea29142ca265bfbdaaea88c53affb5801a64-simc2.png" /></p>
+<p>To avoid potential mistakes, the SimC2 C-BML FOM module has been named NETN-HCBML FOM module and the Simulation Control module has been named NETN-LBML FOM module. </p>
+<p>The NETN HCBML FOM module focuses on transportation of C-BML messages and is basically a wrapper of C-BML messages. The C-BML Orders and Requests are represented using its C-BML XML format without modification. Some information from the message header are extracted and used for routing of the message. Reports and acknowledgements are represented as interactions with parameters based on C-BML. The following reports are supported:</p>
+<ul>
+<li>TaskReport: Progress of current task</li>
+<li>SituationReport: Force Tracking information</li>
+<li>LogReport: Logistics report</li>
+</ul>
+    </div>
+
+    </div>
+
+<p class="prev-next text-center">
+                <a class="btn" href=""><i class="fa fa-angle-left"></i> Previous Post</a>
+    
+            <a class="btn" href="">Next Post <i class="fa fa-angle-right"></i></a>
+    </p>
+                </div>
+    </div>
+
+
+    </section>
+</section>
+        </section>
+
+    </div>
+
+            <section id="footer" class="section bg-gray">
+    <section class="container grid-lg">
+        <p><a href="https://www.sto.nato.int">NATO Science and Technology Organization</a></p>
+    </section>
+</section>
+    
+    <div class="mobile-container">
+        <div class="overlay" id="overlay">
+            <div class="mobile-logo">
+                <a href="/" class="navbar-brand mr-10">
+    <img src="/user/themes/nmsg/images/logo/nato-4-logo-svg-vector.svg" alt="NATO Simulation Standards" />
+</a>            </div>
+            <nav class="overlay-menu">
+                
+<ul class="tree">
+        
+</ul>
+
+            </nav>
+        </div>
+    </div>
+
+    <script src="/assets/user/themes/quark/js/jquery.treemenu.js"></script>
+<script src="/assets/user/themes/quark/js/site.js"></script>
+
+
+</body>
+</html>

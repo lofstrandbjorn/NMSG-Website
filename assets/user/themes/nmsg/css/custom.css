@@ -1,0 +1,14 @@
+a:focus, a:hover, a:active, a.active { 
+	color: #126bd9; 
+	text-decoration: none; 
+}
+
+
+.dropmenu ul li a:before {
+	font-family:"Font Awesome 5 Free";
+	display:inline-block;
+	float:right;
+	margin-right:-20px;
+	content:'\f107';
+	vertical-align:middle
+}
